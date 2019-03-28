@@ -27,7 +27,7 @@ TC = (TF – 32) * 5/9
 import java.util.Scanner;
 
 class TaskC1 {
-    
+
 
 
 
