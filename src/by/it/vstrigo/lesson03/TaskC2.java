@@ -20,12 +20,16 @@ package by.it.vstrigo.lesson03;
     5. Метод sumDigitsInNumber должен правильно возвращать сумму всех цифр в числе number.
 */
 public class TaskC2 {
-
-
-
-
-//    public static void main(String[] args) {
-//        System.out.println(sumDigitsInNumber(5467));
-//    }
-
+    public static int sumDigitsInNumber(int number){
+        int num = number;
+        int sum = 0;
+        while (num != 0) {
+            sum = sum + (num % 10);
+            num = (int) num / 10;
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+        System.out.println(sumDigitsInNumber(5467));
+    }
 }
