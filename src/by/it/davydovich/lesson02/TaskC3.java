@@ -40,7 +40,13 @@ class TaskC3 {
     }
 
     private static double getWeight(int weight) {
-        return (weight / 9.81) * 3.86;
+        double m = (weight / 9.81) * 3.86;
+        double m100 = m*100.0;
+        int weightOnMars = (int) m100;
+        double delta = m100 - weightOnMars;
+        if (delta < 0.5);
+        return weightOnMars / 100.0;
+
 
 
     }
