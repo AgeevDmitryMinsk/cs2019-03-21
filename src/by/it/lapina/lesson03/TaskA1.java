@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it.lapina.lesson03;
 
 /*
 Lesson 03. Task A1. Калькулятор.

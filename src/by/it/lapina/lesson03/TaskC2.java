@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it.lapina.lesson03;
 /*
     Сумма цифр четырехзначного числа
 
