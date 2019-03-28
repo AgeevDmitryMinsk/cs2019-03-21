@@ -1,4 +1,4 @@
-package by.it.vstrigo;
+package by.it.vstrigo.lesson02;
 
 import java.util.Scanner;
 

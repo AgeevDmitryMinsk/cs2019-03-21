@@ -1,4 +1,4 @@
-package by.it.vstrigo;
+package by.it.vstrigo.lesson02;
 
 /*
 Ускорение свободного падения на Земле и Марсе таково:

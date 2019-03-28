@@ -1,4 +1,4 @@
-package by.it.vstrigo;
+package by.it.vstrigo.lesson1;
 
 public class HelloWorld {
     public static void main(String[] args) {

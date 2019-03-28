@@ -1,4 +1,4 @@
-package by.it.vstrigo;
+package by.it.vstrigo.lesson02;
 /*
 напишите программу которая выводит на экран
 Hello world!

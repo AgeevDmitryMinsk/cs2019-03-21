@@ -1,4 +1,4 @@
-package by.it.vstrigo;
+package by.it.vstrigo.lesson02;
 /*
         Уберите комментарии с части кода, чтобы на экран вывелось сообщение «C Новым Годом».
 
