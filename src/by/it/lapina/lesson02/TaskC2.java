@@ -13,7 +13,20 @@ BIN:100010+11010=111100
 HEX:22+1a=3c
 OCT:42+32=74
 */
+import java.util.Scanner;
 class TaskC2 {
+    public static void main(String[] args) {
+        Scanner g=new Scanner(System.in);
+        int num1=g.nextInt();
+        int num2=g.nextInt();
+        int sum= num1 + num2;
+        System.out.println("DEC:"+num1+"+"+num2+"="+sum);
+        System.out.println("BIN:"+Integer.toBinaryString(num1)+"+"+Integer.toBinaryString(num2)+"="+Integer.toBinaryString(sum));
+        System.out.println("HEX:"+Integer.toHexString(num1)+"+"+Integer.toHexString(num2)+"="+Integer.toHexString(sum));
+        System.out.println("OCT:"+Integer.toOctalString(num1)+"+"+Integer.toOctalString(num2)+"="+Integer.toOctalString(sum));
+
+
+    }
 
 
 }
