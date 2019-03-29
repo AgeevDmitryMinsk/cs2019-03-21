@@ -32,7 +32,28 @@ Scanner sc=new Scanner(System.in);
 9.0 5.0 14.0 3.5 1.0
 
  */
+import java.util.Scanner;
 
 class TaskA1 {
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int a = scn.nextInt();
+        int b = scn.nextInt();
+        int sum1 = a+b;
+        int dif1 = a-b;
+        int mult1 = a*b;
+        int div1=a/b;
+        int mod1= a % b;
+        System.out.println(sum1+" "+dif1+" "+mult1+" "+div1+" "+mod1);
+        double a2 = a;
+        double b2 = b;
+        double sum2 = a2+b2;
+        double dif2 = a2-b2;
+        double mult2 = a2*b2;
+        double div2=a2/b2;
+        double mod2= a2 % b2;
+        System.out.println(sum2+" "+dif2+" "+mult2+" "+div2+" "+mod2);
+
+    }
 
 }
