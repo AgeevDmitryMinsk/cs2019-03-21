@@ -33,22 +33,23 @@ import java.util.Scanner;
 */
 class TaskC3 {
     public static void main(String[] args) {
+        System.out.println("Ввод:");
         Scanner sc = new Scanner(System.in);
         int weight = sc.nextInt();
         double weightOnMars = getWeight(weight);
+        System.out.println("Вывод:");
         System.out.println(weightOnMars);
     }
 
     private static double getWeight(int weight) {
         double m = (weight / 9.81) * 3.86;
         double m100 = m*100.0;
-        int weightOnMars = (int) m100;
-        double delta = m100 - weightOnMars;
-        if (delta < 0.5);
-        return weightOnMars / 100.0;
-
-
-
+        int m100round = (int) m100;
+        double delta = m100 - m100round;
+        if (delta < 0.5)
+            return m100round / 100.0;
+        else
+            return (m100round + 1) / 100.0;
     }
 
 }

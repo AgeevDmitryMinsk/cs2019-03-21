@@ -38,13 +38,24 @@ import java.util.Scanner;
 class TaskA1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Ввод:");
         int a = sc.nextInt();
         int b = sc.nextInt();
+        System.out.println("Вывод:");
         int sum = a + b;
         int sub = a - b;
         int mul = a * b;
         int div = a / b;
         int mod = a % b;
-        System.out.println(sum + " " + sub + " " + mul + " " + div + " " + mod);}
+        System.out.println(sum + " " + sub + " " + mul + " " + div + " " + mod);
+        double a2 = (double) a;
+        double b2 = (double) b;
+        double sum2 = a2 + b2;
+        double sub2 = a2 - b2;
+        double mul2 = a2 * b2;
+        double div2 = a2 / b2;
+        double mod2 = a2 % b2;
+        System.out.println(sum2 + " " + sub2 + " " + mul2 + " " + div2 + " " + mod2);
+    }
 
 }
