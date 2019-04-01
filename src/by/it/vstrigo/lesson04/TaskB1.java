@@ -1,5 +1,7 @@
 package by.it.vstrigo.lesson04;
 
+import java.util.Scanner;
+
 /*
 Определите количество дней в году
 
@@ -26,5 +28,30 @@ package by.it.vstrigo.lesson04;
 
 */
 public class TaskB1 {
-
+    public static int getNum (int yy){
+        int year = yy;
+        int num = 365;
+        if (year%4==0){
+            if (year%100==0) {
+                if (year % 400 == 0)
+                    num = 366;
+                else num = 365;
+            }
+            else num = 366;
+            }
+        else num = 365;
+        return num;
+    }
+    public static void showNum(int xx){
+        int numDays = xx;
+        if (numDays == 366)
+            System.out.println("количество дней в году: 366");
+        else System.out.println("количество дней в году: 365");
+    }
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int y = scan.nextInt();
+        int x = TaskB1.getNum(y);
+        TaskB1.showNum(x);
+    }
 }
