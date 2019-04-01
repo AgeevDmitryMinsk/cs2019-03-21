@@ -30,11 +30,8 @@ public class TaskC2 {
         return d;
     }
 
-
-
-
-public static void main(String[] args) {
-     System.out.println(sumDigitsInNumber(5467));
-  }
+    public static void main(String[] args) {
+        System.out.println(sumDigitsInNumber(5467));
+    }
 
 }
