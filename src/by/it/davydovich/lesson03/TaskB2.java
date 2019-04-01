@@ -51,10 +51,6 @@ class TaskB2 {
         }
         else
             System.out.println("Отрицательный дискриминант");
-
-
-
-
     }
 
 }
