@@ -44,49 +44,49 @@ public class TaskC1 {
         String monthW ="";// месяц в текстовом представлении
         switch (month) {
             case 0:
-                monthW = " месяц 0";
+                monthW = "месяц 0";
                 break;
             case 1:
-                monthW = " январь";
+                monthW = "январь";
                 break;
             case 2:
-                monthW = " февраль";
+                monthW = "февраль";
                 break;
             case 3:
-                monthW = " март";
+                monthW = "март";
                 break;
             case 4:
-                monthW = " апрель";
+                monthW = "апрель";
                 break;
             case 5:
-                monthW = " май";
+                monthW = "май";
                 break;
             case 6:
-                monthW = " июнь";
+                monthW = "июнь";
                 break;
             case 7:
-                monthW = " июль";
+                monthW = "июль";
                 break;
             case 8:
-                monthW = " август";
+                monthW = "август";
                 break;
             case 9:
-                monthW = " сентябрь";
+                monthW = "сентябрь";
                 break;
             case 10:
-                monthW = " октябрь";
+                monthW = "октябрь";
                 break;
             case 11:
-                monthW = " ноябрь";
+                monthW = "ноябрь";
                 break;
             case 12:
-                monthW = " декабрь";
+                monthW = "декабрь";
                 break;
             case 13:
-                monthW = " месяц 13";
+                monthW = "месяц 13";
                 break;
             case 14:
-                monthW = " месяц 14";
+                monthW = "месяц 14";
                 break;
             default: break;
         }
