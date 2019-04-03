@@ -29,9 +29,9 @@ Lesson 03. Task B2. Нужно написать программу, котора
 Отрицательный дискриминант
 
 */
-import java.util.Scanner;
 
 import static java.lang.Math.sqrt;
+import java.util.Scanner;
 
 class TaskB2 {
     public static void main(String[] args) {

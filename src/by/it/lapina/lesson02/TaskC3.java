@@ -1,5 +1,7 @@
 package by.it.lapina.lesson02;
 
+import java.util.Scanner;
+
 /*
 Ускорение свободного падения на Земле и Марсе таково:
 Марс   3.86
@@ -30,5 +32,11 @@ package by.it.lapina.lesson02;
 
 */
 class TaskC3 {
+/*    public static void main(String[] args) {
+        Scanner scanner =new Scanner(System.in);
+        int i = scanner.nextInt();
+        double mm=getWeight(int me)
 
+    }
+*/
 }
