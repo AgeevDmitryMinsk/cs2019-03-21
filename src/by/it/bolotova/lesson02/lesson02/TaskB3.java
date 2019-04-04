@@ -1,4 +1,4 @@
-package by.it.bolotova.lesson02;
+package by.it.bolotova.lesson02.lesson02;
 /*
         Уберите комментарии с части кода, чтобы на экран вывелось сообщение «C Новым Годом».
 
@@ -18,7 +18,7 @@ class TaskB3 {
 //        System.out.println("Годом");
 //            System.out.println(s);
 //        System.out.print("C Новым!");
-//        System.out.print(" ");
-        System.out.println(" Годом");
+        System.out.print(" ");
+        System.out.println("Годом");
     }
 }

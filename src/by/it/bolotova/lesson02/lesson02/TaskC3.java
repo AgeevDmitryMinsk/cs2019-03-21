@@ -1,4 +1,4 @@
-package by.it.bolotova.lesson02;
+package by.it.bolotova.lesson02.lesson02;
 
 import java.util.Scanner;
 
@@ -40,10 +40,13 @@ class TaskC3 {
             public static double getWeight(int weight) {
         double e = 3.86;
         double m = 9.81;
-        double x= e / m;
+        double x = e / m;
         double weightMars = weight * x;
-                double Mars = Math.round(weightMars * 100.0) / 100.0;
-                return Mars;
+        double w100 = weightMars * 100.0;
+        int ww = (int) w100;
+        if (w100 - ww < 0.5)
+        return ww / 100.0;
+        return (ww + 1) / 100.0;
              }
 
 }

@@ -1,4 +1,4 @@
-package by.it.bolotova.lesson02;
+package by.it.bolotova.lesson02.lesson02;
 /*
 напишите программу которая выводит на экран
 Hello world!
