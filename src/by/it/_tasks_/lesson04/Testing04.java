@@ -2,12 +2,7 @@ package by.it._tasks_.lesson04;
 
 import org.junit.Test;
 
-import java.io.ByteArrayInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.PrintStream;
-import java.io.StringWriter;
+import java.io.*;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 
@@ -118,7 +113,7 @@ public class Testing04 {
                         "За месяц 14 начислено $0.0");
         run("444").include(
                 "За месяц 0 начислено $0.0\n" +
-                        "За январь начислено $666.0").exclude("март");
+                        "За январь начислено $666.0").exclude("февраль");
         run("666").include(
                 "За месяц 0 начислено $0.0\n" +
                         "За январь начислено $999.0\n" +
