@@ -33,15 +33,16 @@ Lesson 03. Task B2. Нужно написать программу, котора
 */
 class TaskB2 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in)
-        int a=scanner.nextInt();
-        int b=scanner.nextInt();
-        int c=scanner.nextInt();
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
 
 
-        System.out.println();(a*a*x + b*x + c = 0);
+        System.out.println();
+        //(a*a*x + b*x + c = 0);
 
-        if ()
+
 
 
 
