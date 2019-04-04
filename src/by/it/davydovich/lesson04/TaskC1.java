@@ -1,5 +1,7 @@
 package by.it.davydovich.lesson04;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -37,6 +39,52 @@ package by.it.davydovich.lesson04;
 
 */
 public class TaskC1 {
+    public static void main(String[] args) {
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        Scanner scanner = new Scanner(System.in);
+        int salary = scanner.nextInt();
+        if (salary < 300 || salary > 3000) {
+            System.out.println("Мы вам перезвоним!");
+            return;
+        }
+
+        for (int month = 0; month <= 14; month += 1) {
+            String monthName = "";
+            switch (month) {
+                case 0: monthName = "месяц 0"; break;
+                case 1: monthName = "январь"; break;
+                case 2: monthName = "февраль"; break;
+                case 3: monthName = "март"; break;
+                case 4: monthName = "апрель"; break;
+                case 5: monthName = "май"; break;
+                case 6: monthName = "июнь"; break;
+                case 7: monthName = "июль"; break;
+                case 8: monthName = "август"; break;
+                case 9: monthName = "сентябрь"; break;
+                case 10: monthName = "октябрь"; break;
+                case 11: monthName = "ноябрь"; break;
+                case 12: monthName = "декабрь"; break;
+                case 13: monthName = "месяц 13"; break;
+                case 14: monthName = "месяц 14"; break;
+            }
+
+            double monthSalary = 0.0;
+            if (month >= 6 && month <= 8) {
+                monthSalary = salary;
+            }
+            else if (month < 1 || month > 12){
+            }
+            else {
+                monthSalary = 1.5 * salary;
+            }
+
+            System.out.println("За " + monthName + " начислено $" + monthSalary);
+
+            if (monthSalary == 666.0) {
+                break;
+            }
+        }
+    }
 
 
 }
