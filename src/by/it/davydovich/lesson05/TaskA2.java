@@ -28,7 +28,8 @@ public class TaskA2 {
         Scanner scanner = new Scanner(System.in);
         for (;;) {
             String word = scanner.next();
-            if (word.equals("END"); break;
+            if (word.equals("END"))
+                break;
             list.add(word);
         }
         System.out.println(list);
