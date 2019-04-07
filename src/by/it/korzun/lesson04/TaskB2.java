@@ -27,21 +27,20 @@ size прочитать c клавиатуры. Числа разделить п
  */
 public class TaskB2 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner=new Scanner(System.in);
         int size = 10;
-        int outerLoop = 1;
-        int innerLoop = 1;
-        while (outerLoop <= size) {
-            innerLoop = 1;
-            while (innerLoop <= size) {
-                System.out.println(outerLoop * innerLoop + "");
-                innerLoop++;
+        int OuterLoop = 1;
+        int InnerLoop = 1;
+        while (InnerLoop<=size) {
+            InnerLoop=1;
+            while (InnerLoop<=size) {
+                System.out.println(OuterLoop*InnerLoop+" ");
+                InnerLoop++;
             }
 
             System.out.println(" ");
-            outerLoop++;
+            OuterLoop++;
         }
 
     }
-
 }

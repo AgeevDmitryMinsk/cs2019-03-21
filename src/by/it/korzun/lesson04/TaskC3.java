@@ -24,5 +24,4 @@ package by.it.korzun.lesson04;
 */
 
 public class TaskC3 {
-
 }

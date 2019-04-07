@@ -45,5 +45,5 @@ public class TaskA2 {
             default: System.out.println("такого дня недели не существует"); break;
         }
     }
-
+}
 
