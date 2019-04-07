@@ -24,5 +24,16 @@ package by.it.lapina.lesson04;
 */
 
 public class TaskC3 {
-
+//    public static void main(String[] args) {
+//        for (int i = 1; i <=100 ; i++)
+//        {
+//            printNumber(i);
+//
+//        }
+//    }
+//
+//    private static String  printNumber(int i) {
+//        if(i<20)
+//            switch (i);
+//    }
 }
