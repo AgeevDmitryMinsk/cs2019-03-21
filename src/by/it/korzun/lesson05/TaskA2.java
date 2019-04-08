@@ -1,6 +1,5 @@
 package by.it.korzun.lesson05;
 
-import com.sun.javafx.collections.ArrayListenerHelper;
 
 import java.util.ArrayList;
 import java.util.Scanner;
