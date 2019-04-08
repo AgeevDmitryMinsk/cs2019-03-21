@@ -25,5 +25,16 @@ package by.it.turik.lesson06;
 
 */
 public class TaskA2 {
+    public static void main(String[] args) {
+        Dog d1 = new Dog("Шарик",5);
+
+
+        Dog d2 = new Dog("Тузик",3);
+
+
+
+        System.out.println(d1);
+        System.out.println(d2);
+    }
 
 }
