@@ -35,6 +35,7 @@ import java.util.Scanner;
 public class TaskC1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         Dog dog1 = new Dog(
                 scanner.next(),
                 scanner.nextInt(),
@@ -47,6 +48,7 @@ public class TaskC1 {
                 scanner.nextInt(),
                 scanner.nextDouble()
         );
+
         if (dog1.win(dog2))
             System.out.println(dog1.getName());
         else

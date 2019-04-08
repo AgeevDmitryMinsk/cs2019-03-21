@@ -26,12 +26,8 @@ package by.it.vstrigo.lesson06;
 Шарик 5
 Тузик 3
 */
-
-
-
 public class TaskA1 {
     public static void main(String[] args) {
-
         Dog d1 = new Dog();
         d1.setName("Шарик");
         d1.setAge(5);

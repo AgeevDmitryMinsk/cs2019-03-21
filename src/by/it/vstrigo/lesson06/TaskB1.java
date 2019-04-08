@@ -34,6 +34,7 @@ public class TaskB1 {
                 new Dog("Барбос", 4),
                 new Dog("Полкан", 5)
            };
+
         DogHelper.printAllNames(dogs);
         double averageAge = DogHelper.averageAge(dogs);
         System.out.print(averageAge);
