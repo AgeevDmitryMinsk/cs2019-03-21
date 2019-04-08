@@ -1,7 +1,6 @@
 package by.it.bolotova.lesson02.lesson04.lesson04;
 
 import java.util.Scanner;
-import java.util.SimpleTimeZone;
 
 /*
 Таблица умножения
@@ -30,12 +29,11 @@ public class TaskB2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
-        int a = sc.nextInt();
         int x = 1;
         int y = 1;
         while (x <= i) {
             System.out.print(x + " ");
-            while (y < a) {
+            while (y < i) {
                 y++;
                 System.out.print(x * y + " ");
             }
