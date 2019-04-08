@@ -4,10 +4,11 @@ public class DogHelper {
 
     static void printAllNames(Dog[] dogs){
        for (Dog dog: dogs){
-           System.out.println(dog.getName() + " ");
+           System.out.print(dog.getName() + " ");
        }
         System.out.println();
     }
+
     static double averageAge(Dog[] dogs){
         double sum = 0;
         for (Dog dog: dogs){
@@ -15,4 +16,5 @@ public class DogHelper {
         }
         return sum / dogs.length;
     }
+
 }
