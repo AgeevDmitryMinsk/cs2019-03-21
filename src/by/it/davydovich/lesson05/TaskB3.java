@@ -19,6 +19,55 @@ Index of last element=1
 
 */
 
+import java.util.Scanner;
+
 public class TaskB3 {
+    public static void main(String[] args) {
+        int[] m = new int[10];
+        int[] mSorted = new int[10];
+        Scanner scanner = new Scanner(System.in);
+        for (int i = 0; i < 10; i++) {
+            m[i] = scanner.nextInt();
+            mSorted[i] = m[i];
+        }
+
+        for (int i = 0; i < 9; i++) {
+            if (mSorted[i] > mSorted[i+1]) {
+                int g = mSorted[i];
+                mSorted[i] = mSorted[i+1];
+                mSorted[i+1] = g;
+            }
+
+            if (i == 8) {
+                boolean sorted = true;
+                for (int j = 0; j < 9; j++) {
+                    if (mSorted[j] > mSorted[j+1]) {
+                            sorted = false;
+                            break;
+                    }
+                }
+                if (sorted) {
+                    break;
+                }
+
+                i = -1;
+            }
+
+        }
+
+        for (int i = 0; i < 10; i++) {
+            if (m[0] == mSorted[i]) {
+                System.out.println("Index of first element=" + i);
+                break;
+            }
+        }
+        for (int i = 0; i < 10; i++) {
+            if (m[9] == mSorted[i]) {
+                System.out.println("Index of last element=" + i);
+                break;
+            }
+        }
+
+    }
 
 }

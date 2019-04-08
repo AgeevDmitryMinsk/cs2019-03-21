@@ -10,6 +10,22 @@ package by.it.davydovich.lesson05;
 */
 
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<String>();
+        list.add("sun");
+        list.add("gun");
+        list.add("gum");
+        list.add("bum");
+        list.add("bun");
+        System.out.println(list.size());
+
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+    }
 
 }
