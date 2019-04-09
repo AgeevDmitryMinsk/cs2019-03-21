@@ -11,28 +11,28 @@ package by.it.vstrigo.lesson05;
 
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class TaskB1 {
+
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
-        Scanner sc = new Scanner(System.in);
-        for (int i = 0; i < 5; i++) {
-            String nextStr = sc.nextLine();
-            list.add(nextStr);
-        }
+        list.add("a");
+        list.add("b");
+        list.add("c");
+        list.add("d");
+        list.add("e");
         showSize(list);
         showList(list);
     }
 
-    public static void showSize(ArrayList list) {
+    public static void showSize(ArrayList <String> list) {
         int sizeArr = list.size();
         System.out.println(sizeArr);
     }
 
     public static void showList(ArrayList<String> list) {
-        for (int b = 0; b < 5; b++) {
-            String str = list.get(b);
+        for (int i = 0; i < 5; i++) {
+            String str = list.get(i);
             System.out.println(str);
         }
     }
