@@ -1,21 +1,25 @@
 package by.it.teresh._tasks_.lesson06;
 
 public class Dog {
+
     private String name;
     private int age;
     private int weight; //вес собаки
     private double power; //сила укуса собаки
 
-    public Dog(String name, int i, int age, double power) {
-
+    public Dog() {
     }
 
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
+    public Dog(String name, int age) {
+        this.name = name;
         this.age = age;
+    }
+
+    public Dog(String name, int age, int weight, double power) {
+        this.name = name;
+        this.age = age;
+        this.weight = weight;
+        this.power = power;
     }
 
     public String getName() {
@@ -24,6 +28,14 @@ public class Dog {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public int getWeight() {
@@ -42,20 +54,14 @@ public class Dog {
         this.power = power;
     }
 
-    public Dog() {
-        this.age = age;
-        this.name = name;
-        this.weight = weight;
-        this.power = power;
-    }
-
     @Override
     public String toString() {
-        return "Кличка:"+name+" " +"Возраст:"+age;
+        return "Кличка: " + this.name + ". Возраст: " + this.age;
     }
-    boolean win(Dog otherdog){
-        double myChance=0.2*age+0.3*weight+0.5*power;
-        double otherChance=0.2*otherdog.age+0.3*otherdog.weight+0.5*otherdog.power;
-        return myChance>otherChance;
+
+    boolean win(Dog otherDog) {
+        double myChance = 0.2 * this.age + 0.3 * this.weight + 0.5 * this.power;
+        double otherChance = 0.2 * otherDog.age + 0.3 * otherDog.weight + 0.5 * otherDog.power;
+        return myChance > otherChance;
     }
 }

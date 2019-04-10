@@ -62,6 +62,6 @@ public class Dog {
     boolean win(Dog otherDog) {
         double myChance = 0.2 * this.age + 0.3 * this.weight + 0.5 * this.power;
         double otherChance = 0.2 * otherDog.age + 0.3 * otherDog.weight + 0.5 * otherDog.power;
-        return myChance>otherChance;
+        return myChance > otherChance;
     }
 }
