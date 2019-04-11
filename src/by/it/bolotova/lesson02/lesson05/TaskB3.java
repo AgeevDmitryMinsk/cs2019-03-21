@@ -23,7 +23,6 @@ Index of last element=1
 import java.util.Scanner;
 
 
-
 public class TaskB3 {
     public static void main(String[] args) {
         int[] array = new int[10];
@@ -41,11 +40,8 @@ public class TaskB3 {
                     array[b] = t;
                 }
             }
-        int d = array[0];
-            int n = array[9];
-                System.out.println("Index of first element=" + d);
-                System.out.println("Index of last element=" + n);
-
-            }
     }
+}
+
+
 

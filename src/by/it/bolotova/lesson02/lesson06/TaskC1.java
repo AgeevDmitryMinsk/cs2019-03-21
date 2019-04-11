@@ -36,15 +36,15 @@ public class TaskC1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Dog dog1 = new Dog(
-                scanner.nextInt(),
                 scanner.next(),
+                scanner.nextInt(),
                 scanner.nextInt(),
                 scanner.nextDouble()
         );
 
         Dog dog2 = new Dog(
-                scanner.nextInt(),
                 scanner.next(),
+                scanner.nextInt(),
                 scanner.nextInt(),
                 scanner.nextDouble()
         );
