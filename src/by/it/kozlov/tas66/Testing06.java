@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson06;
+package by.it.kozlov.tas66;
 
 import org.junit.Test;
 
@@ -68,7 +68,7 @@ public class Testing06 {
         for (int i = 0; i < dogs.length; i++) {
             Object dog = cl.newInstance();
             assert dog != null;
-            findMethod(cl, "setName", String.class).invoke(dog, "Dog" + i);
+            findMethod(cl, "setName", String.class).invoke(dog, "dog" + i);
             int age = (i + 1);
             findMethod(cl, "setAge", int.class).invoke(dog, age);
             controlAge = controlAge + age;
@@ -101,7 +101,7 @@ public class Testing06 {
 
         for (int i = 1; i < 25; i++) {
             //Шансы на победу = 0.2 * возраст + 0.3 * вес + 0.5 * силу укуса.
-            String n1 = "Dog" + i;
+            String n1 = "dog" + i;
             String n2 = "pup" + i;
             int age1 = 1+(int) (Math.random() * 10);
             int age2 = 1+(int) (Math.random() * 10);
