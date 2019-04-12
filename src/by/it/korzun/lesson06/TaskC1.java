@@ -31,12 +31,5 @@ boolean win(Dog otherDog)
 
 
 public class TaskC1 {
-    Scanner scanner =new Scanner (System.in);
-    Dog1 dog1= new Dog(scanner.next(),scanner.nextInt(),scanner.nextInt(),scanner.nextDouble()
-    );
-    if (dog1.win(dog2))
-        sout(dog1.getName)
-    else
-        sout(dog2.getName);
 
 }

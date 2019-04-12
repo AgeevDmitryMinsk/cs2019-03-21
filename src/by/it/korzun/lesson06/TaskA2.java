@@ -30,14 +30,7 @@ public class TaskA2 {
 
     public static void main(String[] args) {
         Dog dog1=new Dog();
-        dog1.setName
     }
 
-    public void setName(String name){
-        this.name=name;
-    }
-    public int getAge(){
-        return age
-    }
 
 }
