@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson03;
+package by.it.lapina.lesson03;
 
 /*
 Lesson 03. Task A2. Стихотворение
@@ -21,5 +21,17 @@ Lesson 03. Task A2. Стихотворение
 Для автоматической проверки откройте и запустите класс Testing
 */
 class TaskA2 {
+    public static void main(String[] args) {
+        System.out.println("Мое любимое стихотворение:");
+        String line1 = "Однажды, в студёную зимнюю пору";
+        String line2 = "Я из лесу вышел; был сильный мороз.";
+        String line3 = "Гляжу, поднимается медленно в гору";
+        String line4 = "Лошадка, везущая хворосту воз.";
+        String line5 = "И, шествуя важно, в спокойствии чинном,";
+        String line6 = "Лошадку ведёт под уздцы мужичок";
+        String line7 = "В больших сапогах, в полушубке овчинном,";
+        String line8 = "В больших рукавицах... а сам с ноготок!";
 
+        System.out.println(line1+"\n"+line2+"\n"+line3+"\n"+line4+"\n"+line5+"\n"+line6+"\n"+line7+"\n"+line8);
+    }
 }

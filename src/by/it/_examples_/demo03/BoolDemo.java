@@ -2,7 +2,7 @@ package by.it._examples_.demo03;
 
 
 // Demonstrate boolean values.
-class BoolDemo {
+class oolDemo {
     public static void main(String args[]) {
         boolean b;
 
