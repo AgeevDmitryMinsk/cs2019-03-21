@@ -1,4 +1,4 @@
-package by.it.akhmelev.lesson06;
+package by.it.teresh._tasks_.lesson06;
 
 public class Dog {
 

@@ -1,4 +1,4 @@
-package by.it._tasks_.lesson02;
+package by.it.teresh._tasks_.lesson02;
 
 import java.util.Scanner;
 
@@ -13,7 +13,10 @@ Sum = 60
 
 */
 class TaskC1 {
-
-
-
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        int    i= sc.nextInt()  ;
+        int    b= sc.nextInt();
+        System.out.println("Sum = "+(i+b));
+    }
 }
