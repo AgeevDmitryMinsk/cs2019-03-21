@@ -13,9 +13,6 @@ package by.it._tasks_.lesson05;
 0 9
 */
 
-import java.util.Scanner;
-
 public class TaskA3 {
-
 
 }
