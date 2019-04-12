@@ -33,7 +33,7 @@ public class TaskA1 {
     public static void main(String[] args) {
         Dog d1=new Dog();
         d1.setName("Шарик");
-        d1.setAge("5");
+        d1.setAge(5);
 
         Dog d2=new Dog();
         d2.setAge(3);

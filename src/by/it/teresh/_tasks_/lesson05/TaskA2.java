@@ -3,8 +3,6 @@ package by.it.teresh._tasks_.lesson05;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import static jdk.nashorn.internal.runtime.regexp.joni.constants.AsmConstants.END;
-
 /*
 Создайте список строк.
 Вводите строки с клавиатуры, пока пользователь не введет слово END.

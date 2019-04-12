@@ -12,5 +12,6 @@ public class DogHelper {
         for (Dog dog: dogs){
             sum= sum+dog.getAge();
         }
+        return 0;
     }
 }
